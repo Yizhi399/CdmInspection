@@ -75,6 +75,7 @@ cdmInspection <- function (connectionDetails,
 
   # Log execution -----------------------------------------------------------------------------------------------------------------
   # ParallelLogger::clearLoggers()
+  print("Hello World!")
   if(!dir.exists(outputFolder)){dir.create(outputFolder,recursive=T)}
 
   logFileName <-"log_cdmInspection.txt"
